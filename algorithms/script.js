@@ -65,3 +65,20 @@ for (let j = arr.length - 1; j > 0; j--) {
     }
 }
 console.log("Sorted  " + arr);
+
+// Бинарный поиск
+console.log("Бинарный поиск");
+
+let findedIndex;
+let list = [];
+let item = prompt("Введите искомое число");
+
+for (let i = 0; i <= 10; i++){
+    list[i] = Math.round(Math.random()*100);
+}
+
+function binary_search(list, item) {
+    
+}
+
+
